@@ -1,10 +1,9 @@
 # pytorch_MF
+Matrix Factorizationを実装してMovielens-1mで学習
 
 
-# How to use
-Movielens-1mのダウンロード
-1. wget -P ./datasets https://files.grouplens.org/datasets/movielens/ml-1m.zip  
-2. unzip datasets/ml-1m.zip -d datasets 
+### Movielens-1mのダウンロード
+1. mkdir datasets
+2. wget -P ./datasets https://files.grouplens.org/datasets/movielens/ml-1m.zip  
+3. unzip datasets/ml-1m.zip -d datasets 
 
-モデルの学習
-1. 

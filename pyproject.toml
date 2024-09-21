@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pytorch-mf"
+version = "0.1.0"
+description = ""
+authors = ["rintaro121 <hrintaro121@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.26.4"
+polars = "^1.7.1"
+pandas = "^2.2.2"
+black = "^24.8.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+torch = "2.0"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
